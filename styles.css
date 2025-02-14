@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(50, 50, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Header START */
+.navArea {
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #0096fa19;
+}
+
+.navArea ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navArea li {
+    float: left;
+}
+
+.navArea li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+        background-color: rgba(0, 0, 0, 0.300);
+    }
+}
+
+.active {
+    background-color: rgba(135, 206, 250, 0.200);
+}
+
+/* Header END */
+
+
+/* Content START */
+
+.contentArea {
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content END */
+
+
+/* Footer START */
+
+.footerArea {
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.200);
+}
+
+.Banner {
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    border: black solid 2px;
+    background-color: rgba(0, 0, 0, 0.200);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+/* Footer END */

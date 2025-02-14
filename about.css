@@ -1,0 +1,18 @@
+.steckbrief {
+    text-align: center;
+    border: black solid 2px;
+    background-color: rgba(0, 0, 0, 0.200);
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.steckbrief h1 {
+    color: rgba(135, 206, 250, 0.200);
+}
+
+.selfie {
+    height: 200px;
+    border-radius: 0px 100px 0px 100px;
+    border: rgba(135, 206, 250, 0.200) solid 2px;
+}
