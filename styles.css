@@ -34,6 +34,8 @@ body {
     &:hover {
         text-decoration: underline;
         background-color: rgba(0, 0, 0, 0.300);
+        text-shadow: 5px 2px 15px red;
+        transition: text-shadow 1s ease-in-out;
     }
 }
 
