@@ -5,22 +5,22 @@ function userSignUp() {
     const userFirstName = document.getElementById("firstName").value;
     const userFamilyName = document.getElementById("familyName").value;
 
-    if (userEmailTi.length >= 3) {
-        if (userPasswordTi === userReapeatPasswordTi) {
-            if (userFirstName && userFamilyName !== undefined) {
+    if (userEmailTi && userPasswordTi && userReapeatPasswordTi && userFirstName && userFamilyName) {
+        if (userEmailTi.length >= 3) {
+            if (userPasswordTi === userReapeatPasswordTi) {
                 alert(`User wurde Erfolgreich erstellt!\n
                     Email: ${userEmailTi}\n
                     Passwort: ${userPasswordTi}\n
                     Vorname: ${userFirstName}\n
                     Nachname: ${userFamilyName}\n`)
             } else {
-                alert("Du hast nicht alle Felder korrekt ausgefüllt!")
+                alert("Deine Passwörter stimmen nicht überein!")
             }
         } else {
-            alert("Die Passwörter stimmen nicht überein!")
+            alert("Deine Email muss min. 3 Zeichen Lang sein!")
         }
     } else {
-        alert("Die Email muss min. 3 Zeichen Lang sein!")
+        alert("Du hast nicht alle Felder ausgefüllt!")
     }
     
 }
