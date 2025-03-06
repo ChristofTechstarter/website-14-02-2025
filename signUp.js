@@ -5,6 +5,8 @@ function userSignUp() {
     const userFirstName = document.getElementById("firstName").value;
     const userFamilyName = document.getElementById("familyName").value;
 
+
+
     if (userEmailTi && userPasswordTi && userReapeatPasswordTi && userFirstName && userFamilyName) {
         if (userEmailTi.length >= 3) {
             if (userPasswordTi === userReapeatPasswordTi) {
